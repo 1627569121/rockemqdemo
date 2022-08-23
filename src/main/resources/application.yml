@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: springboot-rocketmq
+
+rocketmq:
+  name-server: 192.168.2.100:9876
+  producer:
+    group: producerGroup
